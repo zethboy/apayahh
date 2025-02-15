@@ -54,9 +54,13 @@ section main a {
   color : yellow;
   text-decoration : none;
   border-radius : 5px;
-  gap : 20px
+  border-color : yellow;
+  gap : 20px;
+  transition : 0.3s;
 }
 
-seection main a:hover {
-  
+section main a:hover {
+  background-color : yellow;
+  color : black;
+  border-color : black;
 }
