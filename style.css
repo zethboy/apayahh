@@ -31,4 +31,32 @@ section main {
   align-items : center;
 }
 
+section main img {
+  width : 100px;
+  border-radius : 60%;
+  aspect-rasio : 1;
+  box-shadow: 0 0 5px 1px yellow;
+}
 
+section main h2{
+  font-weight : 600;
+  color : yellow;
+  text-shadow : 0 0 1px transparent, 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+section main a {
+  display : flex;
+  width : 100%;
+  align-items : center;
+  justify-content : center;
+  border : 1.5px solid white;
+  padding : 20px;
+  color : yellow;
+  text-decoration : none;
+  border-radius : 5px;
+  gap : 20px
+}
+
+seection main a:hover {
+  
+}
