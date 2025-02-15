@@ -3,3 +3,29 @@
   padding : 0;
   box-sizing : border-box;
 }
+
+ body {
+  font-family: "Space Grotesk", serif;
+  position : relative;
+  background-image : url(img/bgbrow.jpg);
+  background-size : cover;
+  background-position : center;
+}
+
+section {
+  display : grid;
+  place-items : center;
+  position : absolute;
+  inset : 0;
+}
+
+section main {
+  padding : 100px 10px;
+  display : flex;
+  flex-direction : column;
+  gap : 10px;
+  width : 100%;
+  max-width : 600px;
+  justify-content : center;
+  align-items : center;
+}
